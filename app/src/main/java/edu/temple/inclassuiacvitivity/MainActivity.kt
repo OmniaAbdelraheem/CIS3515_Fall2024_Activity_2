@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
         // TODO Step 4: Change TextView's text size to the number selected in the Spinner */
-        //spinner.onItemSelectedListener = object: ...
+        spinner.onItemSelectedListener = object: AdapterView.OntimeSelectedListener
 
     }
 }
